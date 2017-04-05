@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface CZAreaPickerView : UIPickerView
 
 
@@ -15,6 +16,8 @@
 @property (nonatomic,strong) UIFont *font;
 //字体颜色
 @property (nonatomic,strong) UIColor *textColor;
+//分隔符 比如@" ", @",", @";"
+@property (nonatomic,copy) NSString *separator;
 
 //所选择的地区
 @property (nonatomic,copy,readonly) NSString *areaName;
