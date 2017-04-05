@@ -24,6 +24,7 @@ self.areaTextField.inputView = areaPickerView;
 ```
 You also can adjust the appearance of the picker view like that:
 ```
+areaPickerView.separator = @", ";
 areaPickerView.font = [UIFont systemFontOfSize:18];
 areaPickerView.textColor = [UIColor colorWithWhite:0.1 alpha:1];
 areaPickerView.backgroundColor = [UIColor colorWithWhite:0.8 alpha:1];
