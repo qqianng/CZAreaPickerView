@@ -172,10 +172,12 @@
     
     NSMutableString *areaName = [NSMutableString stringWithFormat:@"%@",province.state];
     if (city) {
-        [areaName appendFormat:@"%@%@", self.separator, city.city];
+        if (self.separator) [areaName appendFormat:@"%@", self.separator];
+        [areaName appendFormat:@"%@", city.city];
     }
     if (districtName) {
-        [areaName appendFormat:@"%@%@", self.separator, districtName];
+        if (self.separator) [areaName appendFormat:@"%@", self.separator];
+        [areaName appendFormat:@"%@", districtName];
     }
     self.areaName = [areaName copy];
     self.textField.text = self.areaName;
