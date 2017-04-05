@@ -1,9 +1,8 @@
 # CZAreaPickerView
 一个省市区联动的地址选择器。
 
-screen_shot1
-![]()
-![]()
+![screen_shot1](screen_shot1.png)
+![screen_shot2](screen_shot2.png)
 
 ## Requirements
 
