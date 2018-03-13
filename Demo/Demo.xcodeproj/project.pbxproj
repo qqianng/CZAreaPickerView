@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1BDF1A20581A0D009A76BA /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A1BDF1320581A0C009A76BA /* area.plist */; };
+		6A1BDF1B20581A0D009A76BA /* CZAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1BDF1520581A0C009A76BA /* CZAreaPickerView.m */; };
+		6A1BDF1C20581A0D009A76BA /* CZCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1BDF1720581A0C009A76BA /* CZCity.m */; };
+		6A1BDF1D20581A0D009A76BA /* CZProvince.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1BDF1920581A0C009A76BA /* CZProvince.m */; };
 		D533EC461E947D0D006DFEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D533EC451E947D0D006DFEFE /* main.m */; };
 		D533EC491E947D0D006DFEFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D533EC481E947D0D006DFEFE /* AppDelegate.m */; };
 		D533EC4C1E947D0D006DFEFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D533EC4B1E947D0D006DFEFE /* ViewController.m */; };
@@ -15,10 +19,6 @@
 		D533EC541E947D0D006DFEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D533EC521E947D0D006DFEFE /* LaunchScreen.storyboard */; };
 		D533EC5F1E947D0E006DFEFE /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D533EC5E1E947D0E006DFEFE /* DemoTests.m */; };
 		D533EC6A1E947D0E006DFEFE /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D533EC691E947D0E006DFEFE /* DemoUITests.m */; };
-		D533EC7F1E947D33006DFEFE /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = D533EC781E947D33006DFEFE /* area.plist */; };
-		D533EC801E947D33006DFEFE /* CZAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D533EC7A1E947D33006DFEFE /* CZAreaPickerView.m */; };
-		D533EC811E947D33006DFEFE /* CZCity.m in Sources */ = {isa = PBXBuildFile; fileRef = D533EC7C1E947D33006DFEFE /* CZCity.m */; };
-		D533EC821E947D33006DFEFE /* CZProvince.m in Sources */ = {isa = PBXBuildFile; fileRef = D533EC7E1E947D33006DFEFE /* CZProvince.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A1BDF1320581A0C009A76BA /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		6A1BDF1420581A0C009A76BA /* CZAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAreaPickerView.h; sourceTree = "<group>"; };
+		6A1BDF1520581A0C009A76BA /* CZAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZAreaPickerView.m; sourceTree = "<group>"; };
+		6A1BDF1620581A0C009A76BA /* CZCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCity.h; sourceTree = "<group>"; };
+		6A1BDF1720581A0C009A76BA /* CZCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCity.m; sourceTree = "<group>"; };
+		6A1BDF1820581A0C009A76BA /* CZProvince.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZProvince.h; sourceTree = "<group>"; };
+		6A1BDF1920581A0C009A76BA /* CZProvince.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZProvince.m; sourceTree = "<group>"; };
 		D533EC411E947D0D006DFEFE /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D533EC451E947D0D006DFEFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D533EC471E947D0D006DFEFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,13 +62,6 @@
 		D533EC651E947D0E006DFEFE /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D533EC691E947D0E006DFEFE /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		D533EC6B1E947D0E006DFEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D533EC781E947D33006DFEFE /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
-		D533EC791E947D33006DFEFE /* CZAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAreaPickerView.h; sourceTree = "<group>"; };
-		D533EC7A1E947D33006DFEFE /* CZAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZAreaPickerView.m; sourceTree = "<group>"; };
-		D533EC7B1E947D33006DFEFE /* CZCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCity.h; sourceTree = "<group>"; };
-		D533EC7C1E947D33006DFEFE /* CZCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCity.m; sourceTree = "<group>"; };
-		D533EC7D1E947D33006DFEFE /* CZProvince.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZProvince.h; sourceTree = "<group>"; };
-		D533EC7E1E947D33006DFEFE /* CZProvince.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZProvince.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A1BDF1220581A0C009A76BA /* CZAreaPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6A1BDF1320581A0C009A76BA /* area.plist */,
+				6A1BDF1420581A0C009A76BA /* CZAreaPickerView.h */,
+				6A1BDF1520581A0C009A76BA /* CZAreaPickerView.m */,
+				6A1BDF1620581A0C009A76BA /* CZCity.h */,
+				6A1BDF1720581A0C009A76BA /* CZCity.m */,
+				6A1BDF1820581A0C009A76BA /* CZProvince.h */,
+				6A1BDF1920581A0C009A76BA /* CZProvince.m */,
+			);
+			name = CZAreaPickerView;
+			path = ../CZAreaPickerView;
+			sourceTree = "<group>";
+		};
 		D533EC381E947D0D006DFEFE = {
 			isa = PBXGroup;
 			children = (
+				6A1BDF1220581A0C009A76BA /* CZAreaPickerView */,
 				D533EC431E947D0D006DFEFE /* Demo */,
 				D533EC5D1E947D0E006DFEFE /* DemoTests */,
 				D533EC681E947D0E006DFEFE /* DemoUITests */,
@@ -112,7 +128,6 @@
 		D533EC431E947D0D006DFEFE /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				D533EC771E947D33006DFEFE /* CZAreaPickerView */,
 				D533EC471E947D0D006DFEFE /* AppDelegate.h */,
 				D533EC481E947D0D006DFEFE /* AppDelegate.m */,
 				D533EC4A1E947D0D006DFEFE /* ViewController.h */,
@@ -150,20 +165,6 @@
 				D533EC6B1E947D0E006DFEFE /* Info.plist */,
 			);
 			path = DemoUITests;
-			sourceTree = "<group>";
-		};
-		D533EC771E947D33006DFEFE /* CZAreaPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				D533EC781E947D33006DFEFE /* area.plist */,
-				D533EC791E947D33006DFEFE /* CZAreaPickerView.h */,
-				D533EC7A1E947D33006DFEFE /* CZAreaPickerView.m */,
-				D533EC7B1E947D33006DFEFE /* CZCity.h */,
-				D533EC7C1E947D33006DFEFE /* CZCity.m */,
-				D533EC7D1E947D33006DFEFE /* CZProvince.h */,
-				D533EC7E1E947D33006DFEFE /* CZProvince.m */,
-			);
-			path = CZAreaPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D533EC541E947D0D006DFEFE /* LaunchScreen.storyboard in Resources */,
-				D533EC7F1E947D33006DFEFE /* area.plist in Resources */,
+				6A1BDF1A20581A0D009A76BA /* area.plist in Resources */,
 				D533EC511E947D0D006DFEFE /* Assets.xcassets in Resources */,
 				D533EC4F1E947D0D006DFEFE /* Main.storyboard in Resources */,
 			);
@@ -300,9 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D533EC811E947D33006DFEFE /* CZCity.m in Sources */,
-				D533EC801E947D33006DFEFE /* CZAreaPickerView.m in Sources */,
-				D533EC821E947D33006DFEFE /* CZProvince.m in Sources */,
+				6A1BDF1C20581A0D009A76BA /* CZCity.m in Sources */,
+				6A1BDF1B20581A0D009A76BA /* CZAreaPickerView.m in Sources */,
+				6A1BDF1D20581A0D009A76BA /* CZProvince.m in Sources */,
 				D533EC4C1E947D0D006DFEFE /* ViewController.m in Sources */,
 				D533EC491E947D0D006DFEFE /* AppDelegate.m in Sources */,
 				D533EC461E947D0D006DFEFE /* main.m in Sources */,
@@ -539,6 +540,7 @@
 				D533EC701E947D0E006DFEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D533EC711E947D0E006DFEFE /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +549,7 @@
 				D533EC731E947D0E006DFEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D533EC741E947D0E006DFEFE /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +558,7 @@
 				D533EC761E947D0E006DFEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
